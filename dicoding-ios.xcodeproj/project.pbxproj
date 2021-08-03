@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDFC85826B990C1000F75B0 /* dicoding_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC85726B990C1000F75B0 /* dicoding_iosApp.swift */; };
+		CEDFC85A26B990C1000F75B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC85926B990C1000F75B0 /* ContentView.swift */; };
+		CEDFC85C26B990C3000F75B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFC85B26B990C3000F75B0 /* Assets.xcassets */; };
+		CEDFC85F26B990C3000F75B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFC85E26B990C3000F75B0 /* Preview Assets.xcassets */; };
+		CEDFC86126B990C3000F75B0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC86026B990C3000F75B0 /* Persistence.swift */; };
+		CEDFC86426B990C3000F75B0 /* dicoding_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC86226B990C3000F75B0 /* dicoding_ios.xcdatamodeld */; };
+		CEDFC86F26B990C3000F75B0 /* dicoding_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC86E26B990C3000F75B0 /* dicoding_iosTests.swift */; };
+		CEDFC87A26B990C3000F75B0 /* dicoding_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC87926B990C3000F75B0 /* dicoding_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDFC86B26B990C3000F75B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDFC84C26B990C1000F75B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDFC85326B990C1000F75B0;
+			remoteInfo = "dicoding-ios";
+		};
+		CEDFC87626B990C3000F75B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDFC84C26B990C1000F75B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDFC85326B990C1000F75B0;
+			remoteInfo = "dicoding-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDFC85426B990C1000F75B0 /* dicoding-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFC85726B990C1000F75B0 /* dicoding_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_iosApp.swift; sourceTree = "<group>"; };
+		CEDFC85926B990C1000F75B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDFC85B26B990C3000F75B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDFC85E26B990C3000F75B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDFC86026B990C3000F75B0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEDFC86326B990C3000F75B0 /* dicoding_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dicoding_ios.xcdatamodel; sourceTree = "<group>"; };
+		CEDFC86526B990C3000F75B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFC86A26B990C3000F75B0 /* dicoding-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFC86E26B990C3000F75B0 /* dicoding_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_iosTests.swift; sourceTree = "<group>"; };
+		CEDFC87026B990C3000F75B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFC87526B990C3000F75B0 /* dicoding-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFC87926B990C3000F75B0 /* dicoding_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_iosUITests.swift; sourceTree = "<group>"; };
+		CEDFC87B26B990C3000F75B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDFC85126B990C1000F75B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFC86726B990C3000F75B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFC87226B990C3000F75B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDFC84B26B990C1000F75B0 = {
+			isa = PBXGroup;
+			children = (
+				CEDFC85626B990C1000F75B0 /* dicoding-ios */,
+				CEDFC86D26B990C3000F75B0 /* dicoding-iosTests */,
+				CEDFC87826B990C3000F75B0 /* dicoding-iosUITests */,
+				CEDFC85526B990C1000F75B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDFC85526B990C1000F75B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC85426B990C1000F75B0 /* dicoding-ios.app */,
+				CEDFC86A26B990C3000F75B0 /* dicoding-iosTests.xctest */,
+				CEDFC87526B990C3000F75B0 /* dicoding-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDFC85626B990C1000F75B0 /* dicoding-ios */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC85726B990C1000F75B0 /* dicoding_iosApp.swift */,
+				CEDFC85926B990C1000F75B0 /* ContentView.swift */,
+				CEDFC85B26B990C3000F75B0 /* Assets.xcassets */,
+				CEDFC86026B990C3000F75B0 /* Persistence.swift */,
+				CEDFC86526B990C3000F75B0 /* Info.plist */,
+				CEDFC86226B990C3000F75B0 /* dicoding_ios.xcdatamodeld */,
+				CEDFC85D26B990C3000F75B0 /* Preview Content */,
+			);
+			path = "dicoding-ios";
+			sourceTree = "<group>";
+		};
+		CEDFC85D26B990C3000F75B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC85E26B990C3000F75B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDFC86D26B990C3000F75B0 /* dicoding-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC86E26B990C3000F75B0 /* dicoding_iosTests.swift */,
+				CEDFC87026B990C3000F75B0 /* Info.plist */,
+			);
+			path = "dicoding-iosTests";
+			sourceTree = "<group>";
+		};
+		CEDFC87826B990C3000F75B0 /* dicoding-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC87926B990C3000F75B0 /* dicoding_iosUITests.swift */,
+				CEDFC87B26B990C3000F75B0 /* Info.plist */,
+			);
+			path = "dicoding-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDFC85326B990C1000F75B0 /* dicoding-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFC87E26B990C3000F75B0 /* Build configuration list for PBXNativeTarget "dicoding-ios" */;
+			buildPhases = (
+				CEDFC85026B990C1000F75B0 /* Sources */,
+				CEDFC85126B990C1000F75B0 /* Frameworks */,
+				CEDFC85226B990C1000F75B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dicoding-ios";
+			productName = "dicoding-ios";
+			productReference = CEDFC85426B990C1000F75B0 /* dicoding-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDFC86926B990C3000F75B0 /* dicoding-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFC88126B990C3000F75B0 /* Build configuration list for PBXNativeTarget "dicoding-iosTests" */;
+			buildPhases = (
+				CEDFC86626B990C3000F75B0 /* Sources */,
+				CEDFC86726B990C3000F75B0 /* Frameworks */,
+				CEDFC86826B990C3000F75B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDFC86C26B990C3000F75B0 /* PBXTargetDependency */,
+			);
+			name = "dicoding-iosTests";
+			productName = "dicoding-iosTests";
+			productReference = CEDFC86A26B990C3000F75B0 /* dicoding-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDFC87426B990C3000F75B0 /* dicoding-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFC88426B990C3000F75B0 /* Build configuration list for PBXNativeTarget "dicoding-iosUITests" */;
+			buildPhases = (
+				CEDFC87126B990C3000F75B0 /* Sources */,
+				CEDFC87226B990C3000F75B0 /* Frameworks */,
+				CEDFC87326B990C3000F75B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDFC87726B990C3000F75B0 /* PBXTargetDependency */,
+			);
+			name = "dicoding-iosUITests";
+			productName = "dicoding-iosUITests";
+			productReference = CEDFC87526B990C3000F75B0 /* dicoding-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDFC84C26B990C1000F75B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CEDFC85326B990C1000F75B0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CEDFC86926B990C3000F75B0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CEDFC85326B990C1000F75B0;
+					};
+					CEDFC87426B990C3000F75B0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CEDFC85326B990C1000F75B0;
+					};
+				};
+			};
+			buildConfigurationList = CEDFC84F26B990C1000F75B0 /* Build configuration list for PBXProject "dicoding-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDFC84B26B990C1000F75B0;
+			productRefGroup = CEDFC85526B990C1000F75B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDFC85326B990C1000F75B0 /* dicoding-ios */,
+				CEDFC86926B990C3000F75B0 /* dicoding-iosTests */,
+				CEDFC87426B990C3000F75B0 /* dicoding-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDFC85226B990C1000F75B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFC85F26B990C3000F75B0 /* Preview Assets.xcassets in Resources */,
+				CEDFC85C26B990C3000F75B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFC86826B990C3000F75B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFC87326B990C3000F75B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDFC85026B990C1000F75B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFC86426B990C3000F75B0 /* dicoding_ios.xcdatamodeld in Sources */,
+				CEDFC86126B990C3000F75B0 /* Persistence.swift in Sources */,
+				CEDFC85A26B990C1000F75B0 /* ContentView.swift in Sources */,
+				CEDFC85826B990C1000F75B0 /* dicoding_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFC86626B990C3000F75B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFC86F26B990C3000F75B0 /* dicoding_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFC87126B990C3000F75B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFC87A26B990C3000F75B0 /* dicoding_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDFC86C26B990C3000F75B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDFC85326B990C1000F75B0 /* dicoding-ios */;
+			targetProxy = CEDFC86B26B990C3000F75B0 /* PBXContainerItemProxy */;
+		};
+		CEDFC87726B990C3000F75B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDFC85326B990C1000F75B0 /* dicoding-ios */;
+			targetProxy = CEDFC87626B990C3000F75B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEDFC87C26B990C3000F75B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDFC87D26B990C3000F75B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDFC87F26B990C3000F75B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"dicoding-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dicoding-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solusibejo.dicoding-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDFC88026B990C3000F75B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"dicoding-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dicoding-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solusibejo.dicoding-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDFC88226B990C3000F75B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solusibejo.dicoding-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-ios.app/dicoding-ios";
+			};
+			name = Debug;
+		};
+		CEDFC88326B990C3000F75B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solusibejo.dicoding-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-ios.app/dicoding-ios";
+			};
+			name = Release;
+		};
+		CEDFC88526B990C3000F75B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solusibejo.dicoding-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-ios";
+			};
+			name = Debug;
+		};
+		CEDFC88626B990C3000F75B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dicoding-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solusibejo.dicoding-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDFC84F26B990C1000F75B0 /* Build configuration list for PBXProject "dicoding-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFC87C26B990C3000F75B0 /* Debug */,
+				CEDFC87D26B990C3000F75B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDFC87E26B990C3000F75B0 /* Build configuration list for PBXNativeTarget "dicoding-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFC87F26B990C3000F75B0 /* Debug */,
+				CEDFC88026B990C3000F75B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDFC88126B990C3000F75B0 /* Build configuration list for PBXNativeTarget "dicoding-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFC88226B990C3000F75B0 /* Debug */,
+				CEDFC88326B990C3000F75B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDFC88426B990C3000F75B0 /* Build configuration list for PBXNativeTarget "dicoding-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFC88526B990C3000F75B0 /* Debug */,
+				CEDFC88626B990C3000F75B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEDFC86226B990C3000F75B0 /* dicoding_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEDFC86326B990C3000F75B0 /* dicoding_ios.xcdatamodel */,
+			);
+			currentVersion = CEDFC86326B990C3000F75B0 /* dicoding_ios.xcdatamodel */;
+			path = dicoding_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEDFC84C26B990C1000F75B0 /* Project object */;
+}
