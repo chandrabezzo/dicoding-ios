@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE366C7926B9A6A300A1C46A /* LikedIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE366C7826B9A6A300A1C46A /* LikedIconView.swift */; };
 		CEDFC85826B990C1000F75B0 /* dicoding_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC85726B990C1000F75B0 /* dicoding_iosApp.swift */; };
-		CEDFC85A26B990C1000F75B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC85926B990C1000F75B0 /* ContentView.swift */; };
+		CEDFC85A26B990C1000F75B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC85926B990C1000F75B0 /* MainView.swift */; };
 		CEDFC85C26B990C3000F75B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFC85B26B990C3000F75B0 /* Assets.xcassets */; };
 		CEDFC85F26B990C3000F75B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFC85E26B990C3000F75B0 /* Preview Assets.xcassets */; };
 		CEDFC86126B990C3000F75B0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC86026B990C3000F75B0 /* Persistence.swift */; };
 		CEDFC86426B990C3000F75B0 /* dicoding_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC86226B990C3000F75B0 /* dicoding_ios.xcdatamodeld */; };
 		CEDFC86F26B990C3000F75B0 /* dicoding_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC86E26B990C3000F75B0 /* dicoding_iosTests.swift */; };
 		CEDFC87A26B990C3000F75B0 /* dicoding_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC87926B990C3000F75B0 /* dicoding_iosUITests.swift */; };
+		CEDFC88E26B9993C000F75B0 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC88D26B9993C000F75B0 /* PhotosView.swift */; };
+		CEDFC89026B99982000F75B0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC88F26B99982000F75B0 /* ProfileView.swift */; };
+		CEDFC89326B99D07000F75B0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC89226B99D07000F75B0 /* Photo.swift */; };
+		CEDFC89D26B9A012000F75B0 /* NetworkImage in Frameworks */ = {isa = PBXBuildFile; productRef = CEDFC89C26B9A012000F75B0 /* NetworkImage */; };
+		CEDFC89F26B9A02F000F75B0 /* PhotoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFC89E26B9A02F000F75B0 /* PhotoContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE366C7826B9A6A300A1C46A /* LikedIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedIconView.swift; sourceTree = "<group>"; };
 		CEDFC85426B990C1000F75B0 /* dicoding-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDFC85726B990C1000F75B0 /* dicoding_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_iosApp.swift; sourceTree = "<group>"; };
-		CEDFC85926B990C1000F75B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDFC85926B990C1000F75B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CEDFC85B26B990C3000F75B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDFC85E26B990C3000F75B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEDFC86026B990C3000F75B0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +56,10 @@
 		CEDFC87526B990C3000F75B0 /* dicoding-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDFC87926B990C3000F75B0 /* dicoding_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_iosUITests.swift; sourceTree = "<group>"; };
 		CEDFC87B26B990C3000F75B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFC88D26B9993C000F75B0 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		CEDFC88F26B99982000F75B0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CEDFC89226B99D07000F75B0 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		CEDFC89E26B9A02F000F75B0 /* PhotoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDFC89D26B9A012000F75B0 /* NetworkImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +111,9 @@
 		CEDFC85626B990C1000F75B0 /* dicoding-ios */ = {
 			isa = PBXGroup;
 			children = (
+				CEDFC89826B99F31000F75B0 /* Presentation */,
+				CEDFC89126B99CEC000F75B0 /* Models */,
 				CEDFC85726B990C1000F75B0 /* dicoding_iosApp.swift */,
-				CEDFC85926B990C1000F75B0 /* ContentView.swift */,
 				CEDFC85B26B990C3000F75B0 /* Assets.xcassets */,
 				CEDFC86026B990C3000F75B0 /* Persistence.swift */,
 				CEDFC86526B990C3000F75B0 /* Info.plist */,
@@ -136,6 +149,42 @@
 			path = "dicoding-iosUITests";
 			sourceTree = "<group>";
 		};
+		CEDFC89126B99CEC000F75B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC89226B99D07000F75B0 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEDFC89726B99F1C000F75B0 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC89E26B9A02F000F75B0 /* PhotoContentView.swift */,
+				CE366C7826B9A6A300A1C46A /* LikedIconView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		CEDFC89826B99F31000F75B0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC89726B99F1C000F75B0 /* Widgets */,
+				CEDFC89926B99F37000F75B0 /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CEDFC89926B99F37000F75B0 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFC85926B990C1000F75B0 /* MainView.swift */,
+				CEDFC88D26B9993C000F75B0 /* PhotosView.swift */,
+				CEDFC88F26B99982000F75B0 /* ProfileView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +201,9 @@
 			dependencies = (
 			);
 			name = "dicoding-ios";
+			packageProductDependencies = (
+				CEDFC89C26B9A012000F75B0 /* NetworkImage */,
+			);
 			productName = "dicoding-ios";
 			productReference = CEDFC85426B990C1000F75B0 /* dicoding-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +275,9 @@
 				Base,
 			);
 			mainGroup = CEDFC84B26B990C1000F75B0;
+			packageReferences = (
+				CEDFC89B26B9A011000F75B0 /* XCRemoteSwiftPackageReference "NetworkImage" */,
+			);
 			productRefGroup = CEDFC85526B990C1000F75B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDFC89326B99D07000F75B0 /* Photo.swift in Sources */,
+				CEDFC89F26B9A02F000F75B0 /* PhotoContentView.swift in Sources */,
 				CEDFC86426B990C3000F75B0 /* dicoding_ios.xcdatamodeld in Sources */,
 				CEDFC86126B990C3000F75B0 /* Persistence.swift in Sources */,
-				CEDFC85A26B990C1000F75B0 /* ContentView.swift in Sources */,
+				CEDFC88E26B9993C000F75B0 /* PhotosView.swift in Sources */,
+				CEDFC85A26B990C1000F75B0 /* MainView.swift in Sources */,
+				CEDFC89026B99982000F75B0 /* ProfileView.swift in Sources */,
 				CEDFC85826B990C1000F75B0 /* dicoding_iosApp.swift in Sources */,
+				CE366C7926B9A6A300A1C46A /* LikedIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +642,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEDFC89B26B9A011000F75B0 /* XCRemoteSwiftPackageReference "NetworkImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/NetworkImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEDFC89C26B9A012000F75B0 /* NetworkImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDFC89B26B9A011000F75B0 /* XCRemoteSwiftPackageReference "NetworkImage" */;
+			productName = NetworkImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CEDFC86226B990C3000F75B0 /* dicoding_ios.xcdatamodeld */ = {
